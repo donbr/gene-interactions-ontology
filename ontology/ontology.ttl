@@ -1,0 +1,2404 @@
+@prefix bp: <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix : <http://example.org/> .
+
+:PMVK a bp:Gene ;
+  bp:displayName "phosphomevalonate kinase" ;
+  bp:name "PMVK" ;
+  bp:name "PMK PMKA HUMPMKI" ;
+  bp:comment "Location: 1q21.3" ;
+  bp:xref :PMVK_HGNC_Xref , :PMVK_Ensembl_Xref .
+:PMVK_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:9141" .
+:PMVK_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000163344" .
+
+:MCM9 a bp:Gene ;
+  bp:displayName "minichromosome maintenance 9 homologous recombination repair factor" ;
+  bp:name "MCM9" ;
+  bp:name "MGC35304 dJ329L24.3 FLJ20170" ;
+  bp:comment "Location: 6q22.31" ;
+  bp:xref :MCM9_HGNC_Xref , :MCM9_Ensembl_Xref .
+:MCM9_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:21484" .
+:MCM9_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000111877" .
+
+:DHX35 a bp:Gene ;
+  bp:displayName "DEAH-box helicase 35" ;
+  bp:name "DHX35" ;
+  bp:name "FLJ22759 KAIA0875" ;
+  bp:comment "Location: 20q11.23-q12" ;
+  bp:xref :DHX35_HGNC_Xref , :DHX35_Ensembl_Xref .
+:DHX35_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:15861" .
+:DHX35_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000101452" .
+
+:JTB a bp:Gene ;
+  bp:displayName "jumping translocation breakpoint" ;
+  bp:name "JTB" ;
+  bp:name "hJT PAR" ;
+  bp:comment "Location: 1q21.3" ;
+  bp:xref :JTB_HGNC_Xref , :JTB_Ensembl_Xref .
+:JTB_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:6201" .
+:JTB_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000143543" .
+
+:PSMF1 a bp:Gene ;
+  bp:displayName "proteasome inhibitor subunit 1" ;
+  bp:name "PSMF1" ;
+  bp:name "PI31" ;
+  bp:comment "Location: 20p13" ;
+  bp:xref :PSMF1_HGNC_Xref , :PSMF1_Ensembl_Xref .
+:PSMF1_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:9571" .
+:PSMF1_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000125818" .
+
+:STAC2 a bp:Gene ;
+  bp:displayName "SH3 and cysteine rich domain 2" ;
+  bp:name "STAC2" ;
+  bp:name "24b2" ;
+  bp:comment "Location: 17q12" ;
+  bp:xref :STAC2_HGNC_Xref , :STAC2_Ensembl_Xref .
+:STAC2_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:23990" .
+:STAC2_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000141750" .
+
+:SDHD a bp:Gene ;
+  bp:displayName "succinate dehydrogenase complex subunit D" ;
+  bp:name "SDHD" ;
+  bp:name "cybS" ;
+  bp:comment "Location: 11q23.1" ;
+  bp:xref :SDHD_HGNC_Xref , :SDHD_Ensembl_Xref .
+:SDHD_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:10683" .
+:SDHD_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000204370" .
+
+:UMPS a bp:Gene ;
+  bp:displayName "uridine monophosphate synthetase" ;
+  bp:name "UMPS" ;
+  bp:comment "Location: 3q21.2" ;
+  bp:xref :UMPS_HGNC_Xref , :UMPS_Ensembl_Xref .
+:UMPS_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:12563" .
+:UMPS_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000114491" .
+
+:FANCA a bp:Gene ;
+  bp:displayName "FA complementation group A" ;
+  bp:name "FANCA" ;
+  bp:name "FAA FA-H FAH" ;
+  bp:comment "Location: 16q24.3" ;
+  bp:xref :FANCA_HGNC_Xref , :FANCA_Ensembl_Xref .
+:FANCA_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:3582" .
+:FANCA_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000187741" .
+
+:PIN1 a bp:Gene ;
+  bp:displayName "peptidylprolyl cis/trans isomerase, NIMA-interacting 1" ;
+  bp:name "PIN1" ;
+  bp:name "dod" ;
+  bp:comment "Location: 19p13" ;
+  bp:xref :PIN1_HGNC_Xref , :PIN1_Ensembl_Xref .
+:PIN1_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:8988" .
+:PIN1_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000127445" .
+
+:CAPRIN1 a bp:Gene ;
+  bp:displayName "cell cycle associated protein 1" ;
+  bp:name "CAPRIN1" ;
+  bp:name "caprin-1 RNG105" ;
+  bp:comment "Location: 11p13" ;
+  bp:xref :CAPRIN1_HGNC_Xref , :CAPRIN1_Ensembl_Xref .
+:CAPRIN1_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:6743" .
+:CAPRIN1_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000135387" .
+
+:FAM106A a bp:Gene ;
+  bp:displayName "family with sequence similarity 106 member A" ;
+  bp:name "FAM106A" ;
+  bp:name "FLJ11800" ;
+  bp:comment "Location: 17p11.2" ;
+  bp:xref :FAM106A_HGNC_Xref , :FAM106A_Ensembl_Xref .
+:FAM106A_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:25682" .
+:FAM106A_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000273018" .
+
+:RB1 a bp:Gene ;
+  bp:displayName "RB transcriptional corepressor 1" ;
+  bp:name "RB1" ;
+  bp:name "RB PPP1R130" ;
+  bp:comment "Location: 13q14.2" ;
+  bp:xref :RB1_HGNC_Xref , :RB1_Ensembl_Xref .
+:RB1_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:9884" .
+:RB1_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000139687" .
+
+:CNKSR2 a bp:Gene ;
+  bp:displayName "connector enhancer of kinase suppressor of Ras 2" ;
+  bp:name "CNKSR2" ;
+  bp:name "KIAA0902 CNK2 KSR2" ;
+  bp:comment "Location: Xp22.12" ;
+  bp:xref :CNKSR2_HGNC_Xref , :CNKSR2_Ensembl_Xref .
+:CNKSR2_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:19701" .
+:CNKSR2_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000149970" .
+
+:MPV17 a bp:Gene ;
+  bp:displayName "mitochondrial inner membrane protein MPV17" ;
+  bp:name "MPV17" ;
+  bp:name "SYM1" ;
+  bp:comment "Location: 2p23.3" ;
+  bp:xref :MPV17_HGNC_Xref , :MPV17_Ensembl_Xref .
+:MPV17_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:7224" .
+:MPV17_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000115204" .
+
+:TOR4A a bp:Gene ;
+  bp:displayName "torsin family 4 member A" ;
+  bp:name "TOR4A" ;
+  bp:name "FLJ20245" ;
+  bp:comment "Location: 9q34.3" ;
+  bp:xref :TOR4A_HGNC_Xref , :TOR4A_Ensembl_Xref .
+:TOR4A_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:25981" .
+:TOR4A_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000198113" .
+
+:MED13 a bp:Gene ;
+  bp:displayName "mediator complex subunit 13" ;
+  bp:name "MED13" ;
+  bp:name "KIAA0593 TRAP240" ;
+  bp:comment "Location: 17q23.2" ;
+  bp:xref :MED13_HGNC_Xref , :MED13_Ensembl_Xref .
+:MED13_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:22474" .
+:MED13_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000108510" .
+
+:SHBG a bp:Gene ;
+  bp:displayName "sex hormone binding globulin" ;
+  bp:name "SHBG" ;
+  bp:name "ABP TEBG MGC126834 MGC138391" ;
+  bp:comment "Location: 17p13.1" ;
+  bp:xref :SHBG_HGNC_Xref , :SHBG_Ensembl_Xref .
+:SHBG_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:10839" .
+:SHBG_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000129214" .
+
+:MTFMT a bp:Gene ;
+  bp:displayName "mitochondrial methionyl-tRNA formyltransferase" ;
+  bp:name "MTFMT" ;
+  bp:name "FMT1" ;
+  bp:comment "Location: 15q22.31" ;
+  bp:xref :MTFMT_HGNC_Xref , :MTFMT_Ensembl_Xref .
+:MTFMT_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:29666" .
+:MTFMT_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000103707" .
+
+:TP53BP1 a bp:Gene ;
+  bp:displayName "tumor protein p53 binding protein 1" ;
+  bp:name "TP53BP1" ;
+  bp:name "53BP1 p202 TDRD30" ;
+  bp:comment "Location: 15q15.3" ;
+  bp:xref :TP53BP1_HGNC_Xref , :TP53BP1_Ensembl_Xref .
+:TP53BP1_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:11999" .
+:TP53BP1_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000067369" .
+
+:FANCF a bp:Gene ;
+  bp:displayName "FA complementation group F" ;
+  bp:name "FANCF" ;
+  bp:name "FAF" ;
+  bp:comment "Location: 11p14.3" ;
+  bp:xref :FANCF_HGNC_Xref , :FANCF_Ensembl_Xref .
+:FANCF_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:3587" .
+:FANCF_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000183161" .
+
+:BUB1 a bp:Gene ;
+  bp:displayName "BUB1 mitotic checkpoint serine/threonine kinase" ;
+  bp:name "BUB1" ;
+  bp:name "hBUB1 BUB1A" ;
+  bp:comment "Location: 2q13" ;
+  bp:xref :BUB1_HGNC_Xref , :BUB1_Ensembl_Xref .
+:BUB1_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:1148" .
+:BUB1_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000169679" .
+
+:PARD6B a bp:Gene ;
+  bp:displayName "par-6 family cell polarity regulator beta" ;
+  bp:name "PARD6B" ;
+  bp:name "PAR-6B" ;
+  bp:comment "Location: 20q13.13" ;
+  bp:xref :PARD6B_HGNC_Xref , :PARD6B_Ensembl_Xref .
+:PARD6B_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:16245" .
+:PARD6B_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000124171" .
+
+:TYMS a bp:Gene ;
+  bp:displayName "thymidylate synthetase" ;
+  bp:name "TYMS" ;
+  bp:name "Tsase TMS HsT422" ;
+  bp:comment "Location: 18p11.32" ;
+  bp:xref :TYMS_HGNC_Xref , :TYMS_Ensembl_Xref .
+:TYMS_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:12441" .
+:TYMS_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000176890" .
+
+:RPRD1B a bp:Gene ;
+  bp:displayName "regulation of nuclear pre-mRNA domain containing 1B" ;
+  bp:name "RPRD1B" ;
+  bp:name "dJ1057B20.2 DKFZp434P0735 CREPT FLJ44520 NET60 Kub5-Hera  K-H" ;
+  bp:comment "Location: 20q11.23" ;
+  bp:xref :RPRD1B_HGNC_Xref , :RPRD1B_Ensembl_Xref .
+:RPRD1B_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:16209" .
+:RPRD1B_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000101413" .
+
+:IGFALS a bp:Gene ;
+  bp:displayName "insulin like growth factor binding protein acid labile subunit" ;
+  bp:name "IGFALS" ;
+  bp:name "ALS" ;
+  bp:comment "Location: 16p13.3" ;
+  bp:xref :IGFALS_HGNC_Xref , :IGFALS_Ensembl_Xref .
+:IGFALS_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:5468" .
+:IGFALS_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000099769" .
+
+:FBXO42 a bp:Gene ;
+  bp:displayName "F-box protein 42" ;
+  bp:name "FBXO42" ;
+  bp:name "KIAA1332 Fbx42" ;
+  bp:comment "Location: 1p36.13" ;
+  bp:xref :FBXO42_HGNC_Xref , :FBXO42_Ensembl_Xref .
+:FBXO42_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:29249" .
+:FBXO42_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000037637" .
+
+:TADA1 a bp:Gene ;
+  bp:displayName "transcriptional adaptor 1" ;
+  bp:name "TADA1" ;
+  bp:name "STAF42 ADA1 hADA1 HFI1" ;
+  bp:comment "Location: 1q24.1" ;
+  bp:xref :TADA1_HGNC_Xref , :TADA1_Ensembl_Xref .
+:TADA1_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:30631" .
+:TADA1_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000152382" .
+
+:RAD54L a bp:Gene ;
+  bp:displayName "RAD54 like" ;
+  bp:name "RAD54L" ;
+  bp:name "hHR54 hRAD54 RAD54A" ;
+  bp:comment "Location: 1p34.1" ;
+  bp:xref :RAD54L_HGNC_Xref , :RAD54L_Ensembl_Xref .
+:RAD54L_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:9826" .
+:RAD54L_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000085999" .
+
+:VGLL3 a bp:Gene ;
+  bp:displayName "vestigial like family member 3" ;
+  bp:name "VGLL3" ;
+  bp:name "VGL-3" ;
+  bp:comment "Location: 3p12.1" ;
+  bp:xref :VGLL3_HGNC_Xref , :VGLL3_Ensembl_Xref .
+:VGLL3_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:24327" .
+:VGLL3_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000206538" .
+
+:CAB39 a bp:Gene ;
+  bp:displayName "calcium binding protein 39" ;
+  bp:name "CAB39" ;
+  bp:name "CGI-66 MO25" ;
+  bp:comment "Location: 2q37.1" ;
+  bp:xref :CAB39_HGNC_Xref , :CAB39_Ensembl_Xref .
+:CAB39_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:20292" .
+:CAB39_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000135932" .
+
+:VHL a bp:Gene ;
+  bp:displayName "von Hippel-Lindau tumor suppressor" ;
+  bp:name "VHL" ;
+  bp:name "VHL1" ;
+  bp:comment "Location: 3p25.3" ;
+  bp:xref :VHL_HGNC_Xref , :VHL_Ensembl_Xref .
+:VHL_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:12687" .
+:VHL_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000134086" .
+
+:TUSC2 a bp:Gene ;
+  bp:displayName "tumor suppressor 2, mitochondrial calcium regulator" ;
+  bp:name "TUSC2" ;
+  bp:name "FUS1 PAP C3orf11" ;
+  bp:comment "Location: 3p21.31" ;
+  bp:xref :TUSC2_HGNC_Xref , :TUSC2_Ensembl_Xref .
+:TUSC2_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:17034" .
+:TUSC2_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000114383" .
+
+:UNC13D a bp:Gene ;
+  bp:displayName "unc-13 homolog D" ;
+  bp:name "UNC13D" ;
+  bp:name "Munc13-4" ;
+  bp:comment "Location: 17q25.3" ;
+  bp:xref :UNC13D_HGNC_Xref , :UNC13D_Ensembl_Xref .
+:UNC13D_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:23147" .
+:UNC13D_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000092929" .
+
+:NUP160 a bp:Gene ;
+  bp:displayName "nucleoporin 160" ;
+  bp:name "NUP160" ;
+  bp:name "KIAA0197 FLJ22583" ;
+  bp:comment "Location: 11p11.2" ;
+  bp:xref :NUP160_HGNC_Xref , :NUP160_Ensembl_Xref .
+:NUP160_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:18017" .
+:NUP160_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000030066" .
+
+:FBXW11 a bp:Gene ;
+  bp:displayName "F-box and WD repeat domain containing 11" ;
+  bp:name "FBXW11" ;
+  bp:name "KIAA0696 Fbw1b BTRCP2 BTRC2 Hos Fbw11" ;
+  bp:comment "Location: 5q35.1" ;
+  bp:xref :FBXW11_HGNC_Xref , :FBXW11_Ensembl_Xref .
+:FBXW11_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:13607" .
+:FBXW11_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000072803" .
+
+:GAK a bp:Gene ;
+  bp:displayName "cyclin G associated kinase" ;
+  bp:name "GAK" ;
+  bp:name "DNAJC26" ;
+  bp:comment "Location: 4p16.3" ;
+  bp:xref :GAK_HGNC_Xref , :GAK_Ensembl_Xref .
+:GAK_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:4113" .
+:GAK_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000178950" .
+
+:PDIA3 a bp:Gene ;
+  bp:displayName "protein disulfide isomerase family A member 3" ;
+  bp:name "PDIA3" ;
+  bp:name "P58 ERp61 ERp57 ERp60 GRP57 PI-PLC HsT17083" ;
+  bp:comment "Location: 15q15.3" ;
+  bp:xref :PDIA3_HGNC_Xref , :PDIA3_Ensembl_Xref .
+:PDIA3_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:4606" .
+:PDIA3_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000167004" .
+
+:USP1 a bp:Gene ;
+  bp:displayName "ubiquitin specific peptidase 1" ;
+  bp:name "USP1" ;
+  bp:comment "Location: 1p31.3" ;
+  bp:xref :USP1_HGNC_Xref , :USP1_Ensembl_Xref .
+:USP1_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:12607" .
+:USP1_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000162607" .
+
+:KEAP1 a bp:Gene ;
+  bp:displayName "kelch like ECH associated protein 1" ;
+  bp:name "KEAP1" ;
+  bp:name "KIAA0132 MGC10630 MGC1114 MGC20887 MGC4407 MGC9454 INrf2  KLHL19" ;
+  bp:comment "Location: 19p13.2" ;
+  bp:xref :KEAP1_HGNC_Xref , :KEAP1_Ensembl_Xref .
+:KEAP1_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:23177" .
+:KEAP1_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000079999" .
+
+:CHMP6 a bp:Gene ;
+  bp:displayName "charged multivesicular body protein 6" ;
+  bp:name "CHMP6" ;
+  bp:name "FLJ11749 VPS20" ;
+  bp:comment "Location: 17q25.3" ;
+  bp:xref :CHMP6_HGNC_Xref , :CHMP6_Ensembl_Xref .
+:CHMP6_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:25675" .
+:CHMP6_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000176108" .
+
+:SLC25A33 a bp:Gene ;
+  bp:displayName "solute carrier family 25 member 33" ;
+  bp:name "SLC25A33" ;
+  bp:name "MGC4399 BMSC-MCP PNC1" ;
+  bp:comment "Location: 1p36.22" ;
+  bp:xref :SLC25A33_HGNC_Xref , :SLC25A33_Ensembl_Xref .
+:SLC25A33_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:29681" .
+:SLC25A33_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000171612" .
+
+:USP48 a bp:Gene ;
+  bp:displayName "ubiquitin specific peptidase 48" ;
+  bp:name "USP48" ;
+  bp:name "FLJ23277 FLJ11328 FLJ20103 FLJ23054 MGC14879" ;
+  bp:comment "Location: 1p36.12" ;
+  bp:xref :USP48_HGNC_Xref , :USP48_Ensembl_Xref .
+:USP48_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:18533" .
+:USP48_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000090686" .
+
+:ELMO2 a bp:Gene ;
+  bp:displayName "engulfment and cell motility 2" ;
+  bp:name "ELMO2" ;
+  bp:name "CED12 ELMO-2 CED-12 KIAA1834 FLJ11656" ;
+  bp:comment "Location: 20q13.12" ;
+  bp:xref :ELMO2_HGNC_Xref , :ELMO2_Ensembl_Xref .
+:ELMO2_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:17233" .
+:ELMO2_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000062598" .
+
+:PTEN a bp:Gene ;
+  bp:displayName "phosphatase and tensin homolog" ;
+  bp:name "PTEN" ;
+  bp:name "MMAC1 TEP1 PTEN1" ;
+  bp:comment "Location: 10q23.31" ;
+  bp:xref :PTEN_HGNC_Xref , :PTEN_Ensembl_Xref .
+:PTEN_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:9588" .
+:PTEN_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000171862" .
+
+:TP53 a bp:Gene ;
+  bp:displayName "tumor protein p53" ;
+  bp:name "TP53" ;
+  bp:name "p53 LFS1" ;
+  bp:comment "Location: 17p13.1" ;
+  bp:xref :TP53_HGNC_Xref , :TP53_Ensembl_Xref .
+:TP53_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:11998" .
+:TP53_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000141510" .
+
+:PPP2R3C a bp:Gene ;
+  bp:displayName "protein phosphatase 2 regulatory subunit B''gamma" ;
+  bp:name "PPP2R3C" ;
+  bp:name "FLJ20644 G4-1 G5PR" ;
+  bp:comment "Location: 14q13.2" ;
+  bp:xref :PPP2R3C_HGNC_Xref , :PPP2R3C_Ensembl_Xref .
+:PPP2R3C_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:17485" .
+:PPP2R3C_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000092020" .
+
+:NDUFB6 a bp:Gene ;
+  bp:displayName "NADH:ubiquinone oxidoreductase subunit B6" ;
+  bp:name "NDUFB6" ;
+  bp:name "B17 CI" ;
+  bp:comment "Location: 9p21.1" ;
+  bp:xref :NDUFB6_HGNC_Xref , :NDUFB6_Ensembl_Xref .
+:NDUFB6_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:7701" .
+:NDUFB6_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000165264" .
+
+:GART a bp:Gene ;
+  bp:displayName "phosphoribosylglycinamide formyltransferase, phosphoribosylglycinamide synthetase, phosphoribosylaminoimidazole synthetase" ;
+  bp:name "GART" ;
+  bp:name "GARS-AIRS-GART" ;
+  bp:comment "Location: 21q22.11" ;
+  bp:xref :GART_HGNC_Xref , :GART_Ensembl_Xref .
+:GART_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:4163" .
+:GART_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000159131" .
+
+:TMCO6 a bp:Gene ;
+  bp:displayName "transmembrane and coiled-coil domains 6" ;
+  bp:name "TMCO6" ;
+  bp:name "FLJ39769 PRO1580" ;
+  bp:comment "Location: 5q31.3" ;
+  bp:xref :TMCO6_HGNC_Xref , :TMCO6_Ensembl_Xref .
+:TMCO6_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:28814" .
+:TMCO6_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000113119" .
+
+:GTPBP2 a bp:Gene ;
+  bp:displayName "GTP binding protein 2" ;
+  bp:name "GTPBP2" ;
+  bp:comment "Location: 6p21.1" ;
+  bp:xref :GTPBP2_HGNC_Xref , :GTPBP2_Ensembl_Xref .
+:GTPBP2_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:4670" .
+:GTPBP2_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000172432" .
+
+:NF1 a bp:Gene ;
+  bp:displayName "neurofibromin 1" ;
+  bp:name "NF1" ;
+  bp:comment "Location: 17q11.2" ;
+  bp:xref :NF1_HGNC_Xref , :NF1_Ensembl_Xref .
+:NF1_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:7765" .
+:NF1_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000196712" .
+
+:CNOT4 a bp:Gene ;
+  bp:displayName "CCR4-NOT transcription complex subunit 4" ;
+  bp:name "CNOT4" ;
+  bp:name "CLONE243 NOT4H" ;
+  bp:comment "Location: 7q33" ;
+  bp:xref :CNOT4_HGNC_Xref , :CNOT4_Ensembl_Xref .
+:CNOT4_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:7880" .
+:CNOT4_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000080802" .
+
+:RRAS2 a bp:Gene ;
+  bp:displayName "RAS related 2" ;
+  bp:name "RRAS2" ;
+  bp:name "TC21" ;
+  bp:comment "Location: 11p15.2" ;
+  bp:xref :RRAS2_HGNC_Xref , :RRAS2_Ensembl_Xref .
+:RRAS2_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:17271" .
+:RRAS2_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000133818" .
+
+:NDUFC1 a bp:Gene ;
+  bp:displayName "NADH:ubiquinone oxidoreductase subunit C1" ;
+  bp:name "NDUFC1" ;
+  bp:name "KFYI" ;
+  bp:comment "Location: 4q31.1" ;
+  bp:xref :NDUFC1_HGNC_Xref , :NDUFC1_Ensembl_Xref .
+:NDUFC1_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:7705" .
+:NDUFC1_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000109390" .
+
+:DMAC1 a bp:Gene ;
+  bp:displayName "distal membrane arm assembly component 1" ;
+  bp:name "DMAC1" ;
+  bp:name "MGC4730" ;
+  bp:comment "Location: 9p24.1" ;
+  bp:xref :DMAC1_HGNC_Xref , :DMAC1_Ensembl_Xref .
+:DMAC1_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:30536" .
+:DMAC1_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000137038" .
+
+:COQ2 a bp:Gene ;
+  bp:displayName "coenzyme Q2, polyprenyltransferase" ;
+  bp:name "COQ2" ;
+  bp:name "CL640 FLJ26072" ;
+  bp:comment "Location: 4q21.23" ;
+  bp:xref :COQ2_HGNC_Xref , :COQ2_Ensembl_Xref .
+:COQ2_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:25223" .
+:COQ2_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000173085" .
+
+:PRKRA a bp:Gene ;
+  bp:displayName "protein activator of interferon induced protein kinase EIF2AK2" ;
+  bp:name "PRKRA" ;
+  bp:name "PACT RAX HSD14 DYT16" ;
+  bp:comment "Location: 2q31.2" ;
+  bp:xref :PRKRA_HGNC_Xref , :PRKRA_Ensembl_Xref .
+:PRKRA_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:9438" .
+:PRKRA_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000180228" .
+
+:FANCD2 a bp:Gene ;
+  bp:displayName "FA complementation group D2" ;
+  bp:name "FANCD2" ;
+  bp:name "FAD FA-D2" ;
+  bp:comment "Location: 3p25.3" ;
+  bp:xref :FANCD2_HGNC_Xref , :FANCD2_Ensembl_Xref .
+:FANCD2_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:3585" .
+:FANCD2_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000144554" .
+
+:KPNA4 a bp:Gene ;
+  bp:displayName "karyopherin subunit alpha 4" ;
+  bp:name "KPNA4" ;
+  bp:name "QIP1 SRP3 IPOA3 MGC12217 MGC26703" ;
+  bp:comment "Location: 3q25.33" ;
+  bp:xref :KPNA4_HGNC_Xref , :KPNA4_Ensembl_Xref .
+:KPNA4_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:6397" .
+:KPNA4_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000186432" .
+
+:PRDX1 a bp:Gene ;
+  bp:displayName "peroxiredoxin 1" ;
+  bp:name "PRDX1" ;
+  bp:name "NKEFA" ;
+  bp:comment "Location: 1p34.1" ;
+  bp:xref :PRDX1_HGNC_Xref , :PRDX1_Ensembl_Xref .
+:PRDX1_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:9352" .
+:PRDX1_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000117450" .
+
+:ATG9A a bp:Gene ;
+  bp:displayName "autophagy related 9A" ;
+  bp:name "ATG9A" ;
+  bp:name "FLJ22169" ;
+  bp:comment "Location: 2q35" ;
+  bp:xref :ATG9A_HGNC_Xref , :ATG9A_Ensembl_Xref .
+:ATG9A_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:22408" .
+:ATG9A_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000198925" .
+
+:CDH1 a bp:Gene ;
+  bp:displayName "cadherin 1" ;
+  bp:name "CDH1" ;
+  bp:name "uvomorulin CD324" ;
+  bp:comment "Location: 16q22.1" ;
+  bp:xref :CDH1_HGNC_Xref , :CDH1_Ensembl_Xref .
+:CDH1_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:1748" .
+:CDH1_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000039068" .
+
+:USPL1 a bp:Gene ;
+  bp:displayName "ubiquitin specific peptidase like 1" ;
+  bp:name "USPL1" ;
+  bp:name "bA121O19.1 D13S106E" ;
+  bp:comment "Location: 13q12.3" ;
+  bp:xref :USPL1_HGNC_Xref , :USPL1_Ensembl_Xref .
+:USPL1_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:20294" .
+:USPL1_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000132952" .
+
+:CTBP2 a bp:Gene ;
+  bp:displayName "C-terminal binding protein 2" ;
+  bp:name "CTBP2" ;
+  bp:name "ribeye" ;
+  bp:comment "Location: 10q26.13" ;
+  bp:xref :CTBP2_HGNC_Xref , :CTBP2_Ensembl_Xref .
+:CTBP2_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:2495" .
+:CTBP2_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000175029" .
+
+:IKBKG a bp:Gene ;
+  bp:displayName "inhibitor of nuclear factor kappa B kinase regulatory subunit gamma" ;
+  bp:name "IKBKG" ;
+  bp:name "IKK-gamma NEMO Fip3p FIP-3 FIP3 ZC2HC9 IKKAP1 IKKG" ;
+  bp:comment "Location: Xq28" ;
+  bp:xref :IKBKG_HGNC_Xref , :IKBKG_Ensembl_Xref .
+:IKBKG_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:5961" .
+:IKBKG_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000269335" .
+
+:PDS5A a bp:Gene ;
+  bp:displayName "PDS5 cohesin associated factor A" ;
+  bp:name "PDS5A" ;
+  bp:name "KIAA0648 PIG54 SCC-112" ;
+  bp:comment "Location: 4p14" ;
+  bp:xref :PDS5A_HGNC_Xref , :PDS5A_Ensembl_Xref .
+:PDS5A_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:29088" .
+:PDS5A_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000121892" .
+
+:BPTF a bp:Gene ;
+  bp:displayName "bromodomain PHD finger transcription factor" ;
+  bp:name "BPTF" ;
+  bp:name "FAC1 NURF301" ;
+  bp:comment "Location: 17q24.2" ;
+  bp:xref :BPTF_HGNC_Xref , :BPTF_Ensembl_Xref .
+:BPTF_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:3581" .
+:BPTF_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000171634" .
+
+:BRIP1 a bp:Gene ;
+  bp:displayName "BRCA1 interacting DNA helicase 1" ;
+  bp:name "BRIP1" ;
+  bp:name "OF BACH1 FANCJ" ;
+  bp:comment "Location: 17q23.2" ;
+  bp:xref :BRIP1_HGNC_Xref , :BRIP1_Ensembl_Xref .
+:BRIP1_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:20473" .
+:BRIP1_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000136492" .
+
+:USH1G a bp:Gene ;
+  bp:displayName "USH1 protein network component sans" ;
+  bp:name "USH1G" ;
+  bp:name "Sans FLJ33924 ANKS4A" ;
+  bp:comment "Location: 17q25.1" ;
+  bp:xref :USH1G_HGNC_Xref , :USH1G_Ensembl_Xref .
+:USH1G_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:16356" .
+:USH1G_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000182040" .
+
+:WRAP53 a bp:Gene ;
+  bp:displayName "WD repeat containing antisense to TP53" ;
+  bp:name "WRAP53" ;
+  bp:name "FLJ10385 TCAB1" ;
+  bp:comment "Location: 17p13.1" ;
+  bp:xref :WRAP53_HGNC_Xref , :WRAP53_Ensembl_Xref .
+:WRAP53_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:25522" .
+:WRAP53_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000141499" .
+
+:SDHB a bp:Gene ;
+  bp:displayName "succinate dehydrogenase complex iron sulfur subunit B" ;
+  bp:name "SDHB" ;
+  bp:comment "Location: 1p36.13" ;
+  bp:xref :SDHB_HGNC_Xref , :SDHB_Ensembl_Xref .
+:SDHB_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:10681" .
+:SDHB_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000117118" .
+
+:UBE2T a bp:Gene ;
+  bp:displayName "ubiquitin conjugating enzyme E2 T" ;
+  bp:name "UBE2T" ;
+  bp:name "HSPC150 FANCT" ;
+  bp:comment "Location: 1q32.1" ;
+  bp:xref :UBE2T_HGNC_Xref , :UBE2T_Ensembl_Xref .
+:UBE2T_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:25009" .
+:UBE2T_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000077152" .
+
+:PBRM1 a bp:Gene ;
+  bp:displayName "polybromo 1" ;
+  bp:name "PBRM1" ;
+  bp:name "BAF180 PB1 SMARCH1" ;
+  bp:comment "Location: 3p21.1" ;
+  bp:xref :PBRM1_HGNC_Xref , :PBRM1_Ensembl_Xref .
+:PBRM1_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:30064" .
+:PBRM1_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000163939" .
+
+:UIMC1 a bp:Gene ;
+  bp:displayName "ubiquitin interaction motif containing 1" ;
+  bp:name "UIMC1" ;
+  bp:name "RAP80" ;
+  bp:comment "Location: 5q35.2" ;
+  bp:xref :UIMC1_HGNC_Xref , :UIMC1_Ensembl_Xref .
+:UIMC1_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:30298" .
+:UIMC1_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000087206" .
+
+:DDX19A a bp:Gene ;
+  bp:displayName "DEAD-box helicase 19A" ;
+  bp:name "DDX19A" ;
+  bp:name "FLJ11126" ;
+  bp:comment "Location: 16q22.1" ;
+  bp:xref :DDX19A_HGNC_Xref , :DDX19A_Ensembl_Xref .
+:DDX19A_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:25628" .
+:DDX19A_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000168872" .
+
+:ARID2 a bp:Gene ;
+  bp:displayName "AT-rich interaction domain 2" ;
+  bp:name "ARID2" ;
+  bp:name "KIAA1557 DKFZp686G052 FLJ30619 BAF200 SMARCF3 ZIPZAP p200" ;
+  bp:comment "Location: 12q12" ;
+  bp:xref :ARID2_HGNC_Xref , :ARID2_Ensembl_Xref .
+:ARID2_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:18037" .
+:ARID2_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000189079" .
+
+:EBNA1BP2 a bp:Gene ;
+  bp:displayName "EBNA1 binding protein 2" ;
+  bp:name "EBNA1BP2" ;
+  bp:name "NOBP EBP2 P40" ;
+  bp:comment "Location: 1p34.2" ;
+  bp:xref :EBNA1BP2_HGNC_Xref , :EBNA1BP2_Ensembl_Xref .
+:EBNA1BP2_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:15531" .
+:EBNA1BP2_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000117395" .
+
+:BAP1 a bp:Gene ;
+  bp:displayName "BRCA1 associated deubiquitinase 1" ;
+  bp:name "BAP1" ;
+  bp:name "hucep-6 KIAA0272 UCHL2" ;
+  bp:comment "Location: 3p21.1" ;
+  bp:xref :BAP1_HGNC_Xref , :BAP1_Ensembl_Xref .
+:BAP1_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:950" .
+:BAP1_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000163930" .
+
+:BZW1 a bp:Gene ;
+  bp:displayName "basic leucine zipper and W2 domains 1" ;
+  bp:name "BZW1" ;
+  bp:name "BZAP45 KIAA0005 5MP2" ;
+  bp:comment "Location: 2q33.1" ;
+  bp:xref :BZW1_HGNC_Xref , :BZW1_Ensembl_Xref .
+:BZW1_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:18380" .
+:BZW1_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000082153" .
+
+:BIRC6 a bp:Gene ;
+  bp:displayName "baculoviral IAP repeat containing 6" ;
+  bp:name "BIRC6" ;
+  bp:name "BRUCE" ;
+  bp:comment "Location: 2p22.3" ;
+  bp:xref :BIRC6_HGNC_Xref , :BIRC6_Ensembl_Xref .
+:BIRC6_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:13516" .
+:BIRC6_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000115760" .
+
+:YPEL5 a bp:Gene ;
+  bp:displayName "yippee like 5" ;
+  bp:name "YPEL5" ;
+  bp:name "CGI-127" ;
+  bp:comment "Location: 2p23.1" ;
+  bp:xref :YPEL5_HGNC_Xref , :YPEL5_Ensembl_Xref .
+:YPEL5_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:18329" .
+:YPEL5_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000119801" .
+
+:MAPKAP1 a bp:Gene ;
+  bp:displayName "MAPK associated protein 1" ;
+  bp:name "MAPKAP1" ;
+  bp:name "MGC2745 SIN1 MIP1" ;
+  bp:comment "Location: 9q33.3" ;
+  bp:xref :MAPKAP1_HGNC_Xref , :MAPKAP1_Ensembl_Xref .
+:MAPKAP1_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:18752" .
+:MAPKAP1_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000119487" .
+
+:DHODH a bp:Gene ;
+  bp:displayName "dihydroorotate dehydrogenase (quinone)" ;
+  bp:name "DHODH" ;
+  bp:comment "Location: 16q22.2" ;
+  bp:xref :DHODH_HGNC_Xref , :DHODH_Ensembl_Xref .
+:DHODH_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:2867" .
+:DHODH_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000102967" .
+
+:RMI2 a bp:Gene ;
+  bp:displayName "RecQ mediated genome instability 2" ;
+  bp:name "RMI2" ;
+  bp:name "MGC24665 BLAP18" ;
+  bp:comment "Location: 16p13.13" ;
+  bp:xref :RMI2_HGNC_Xref , :RMI2_Ensembl_Xref .
+:RMI2_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:28349" .
+:RMI2_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000175643" .
+
+:STUB1 a bp:Gene ;
+  bp:displayName "STIP1 homology and U-box containing protein 1" ;
+  bp:name "STUB1" ;
+  bp:name "UBOX1 CHIP SDCCAG7 HSPABP2 NY-CO-7" ;
+  bp:comment "Location: 16p13.3" ;
+  bp:xref :STUB1_HGNC_Xref , :STUB1_Ensembl_Xref .
+:STUB1_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:11427" .
+:STUB1_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000103266" .
+
+:NF2 a bp:Gene ;
+  bp:displayName "NF2, moesin-ezrin-radixin like (MERLIN) tumor suppressor" ;
+  bp:name "NF2" ;
+  bp:name "merlin ACN SCH BANF merlin-1" ;
+  bp:comment "Location: 22q12.2" ;
+  bp:xref :NF2_HGNC_Xref , :NF2_Ensembl_Xref .
+:NF2_HGNC_Xref a bp:UnificationXref ;
+  bp:db "HGNC" ;
+  bp:id "HGNC:7773" .
+:NF2_Ensembl_Xref a bp:UnificationXref ;
+  bp:db "Ensembl" ;
+  bp:id "ENSG00000186575" .
+
+:RPRD1B_to_TP53_interaction a bp:Control ;
+  bp:controller :RPRD1B ;
+  bp:controlled :TP53 ;
+  bp:evidence "5 occurrences" .
+
+:BPTF_to_TP53_interaction a bp:Control ;
+  bp:controller :BPTF ;
+  bp:controlled :TP53 ;
+  bp:evidence "4 occurrences" .
+
+:CAB39_to_TP53_interaction a bp:Control ;
+  bp:controller :CAB39 ;
+  bp:controlled :TP53 ;
+  bp:evidence "2 occurrences" .
+
+:CNKSR2_to_TP53_interaction a bp:Control ;
+  bp:controller :CNKSR2 ;
+  bp:controlled :TP53 ;
+  bp:evidence "2 occurrences" .
+
+:TADA1_to_TP53_interaction a bp:Control ;
+  bp:controller :TADA1 ;
+  bp:controlled :TP53 ;
+  bp:evidence "2 occurrences" .
+
+:UNC13D_to_TP53_interaction a bp:Control ;
+  bp:controller :UNC13D ;
+  bp:controlled :TP53 ;
+  bp:evidence "2 occurrences" .
+
+:WRAP53_to_TP53_interaction a bp:Control ;
+  bp:controller :WRAP53 ;
+  bp:controlled :TP53 ;
+  bp:evidence "2 occurrences" .
+
+
+:TYMS_to_TP53_interaction a bp:Control ;
+  bp:controller :TYMS ;
+  bp:controlled :TP53 ;
+  bp:evidence "7 occurrences" .
+
+:DDX19A_to_ARID1A_interaction a bp:Control ;
+  bp:controller :DDX19A ;
+  bp:controlled :ARID1A ;
+  bp:evidence "5 occurrences" .
+
+:DDX19A_to_CDH1_interaction a bp:Control ;
+  bp:controller :DDX19A ;
+  bp:controlled :CDH1 ;
+  bp:evidence "5 occurrences" .
+
+:DDX19A_to_NF2_interaction a bp:Control ;
+  bp:controller :DDX19A ;
+  bp:controlled :NF2 ;
+  bp:evidence "5 occurrences" .
+
+:DDX19A_to_PBRM1_interaction a bp:Control ;
+  bp:controller :DDX19A ;
+  bp:controlled :PBRM1 ;
+  bp:evidence "5 occurrences" .
+
+:DDX19A_to_RB1_interaction a bp:Control ;
+  bp:controller :DDX19A ;
+  bp:controlled :RB1 ;
+  bp:evidence "5 occurrences" .
+
+:PPP2R3C_to_CDH1_interaction a bp:Control ;
+  bp:controller :PPP2R3C ;
+  bp:controlled :CDH1 ;
+  bp:evidence "5 occurrences" .
+
+:PPP2R3C_to_LKB1_interaction a bp:Control ;
+  bp:controller :PPP2R3C ;
+  bp:controlled :LKB1 ;
+  bp:evidence "5 occurrences" .
+
+:PPP2R3C_to_NF2_interaction a bp:Control ;
+  bp:controller :PPP2R3C ;
+  bp:controlled :NF2 ;
+  bp:evidence "5 occurrences" .
+
+:PPP2R3C_to_RB1_interaction a bp:Control ;
+  bp:controller :PPP2R3C ;
+  bp:controlled :RB1 ;
+  bp:evidence "5 occurrences" .
+
+:PPP2R3C_to_VHL_interaction a bp:Control ;
+  bp:controller :PPP2R3C ;
+  bp:controlled :VHL ;
+  bp:evidence "5 occurrences" .
+
+:COQ2_to_BAP1_interaction a bp:Control ;
+  bp:controller :COQ2 ;
+  bp:controlled :BAP1 ;
+  bp:evidence "3 occurrences" .
+
+:COQ2_to_KEAP1_interaction a bp:Control ;
+  bp:controller :COQ2 ;
+  bp:controlled :KEAP1 ;
+  bp:evidence "3 occurrences" .
+
+:COQ2_to_RB1_interaction a bp:Control ;
+  bp:controller :COQ2 ;
+  bp:controlled :RB1 ;
+  bp:evidence "3 occurrences" .
+
+:UMPS_to_PBRM1_interaction a bp:Control ;
+  bp:controller :UMPS ;
+  bp:controlled :PBRM1 ;
+  bp:evidence "3 occurrences" .
+
+:UMPS_to_RB1_interaction a bp:Control ;
+  bp:controller :UMPS ;
+  bp:controlled :RB1 ;
+  bp:evidence "3 occurrences" .
+
+:UMPS_to_VHL_interaction a bp:Control ;
+  bp:controller :UMPS ;
+  bp:controlled :VHL ;
+  bp:evidence "3 occurrences" .
+
+:CTBP2_to_KEAP1_interaction a bp:Control ;
+  bp:controller :CTBP2 ;
+  bp:controlled :KEAP1 ;
+  bp:evidence "2 occurrences" .
+
+:CTBP2_to_RB1_interaction a bp:Control ;
+  bp:controller :CTBP2 ;
+  bp:controlled :RB1 ;
+  bp:evidence "2 occurrences" .
+
+:EBNA1BP2_to_NF1_interaction a bp:Control ;
+  bp:controller :EBNA1BP2 ;
+  bp:controlled :NF1 ;
+  bp:evidence "2 occurrences" .
+
+:EBNA1BP2_to_RB1_interaction a bp:Control ;
+  bp:controller :EBNA1BP2 ;
+  bp:controlled :RB1 ;
+  bp:evidence "2 occurrences" .
+
+:ELMO2_to_KEAP1_interaction a bp:Control ;
+  bp:controller :ELMO2 ;
+  bp:controlled :KEAP1 ;
+  bp:evidence "2 occurrences" .
+
+:ELMO2_to_RB1_interaction a bp:Control ;
+  bp:controller :ELMO2 ;
+  bp:controlled :RB1 ;
+  bp:evidence "2 occurrences" .
+
+:GAK_to_RB1_interaction a bp:Control ;
+  bp:controller :GAK ;
+  bp:controlled :RB1 ;
+  bp:evidence "2 occurrences" .
+
+:GAK_to_VHL_interaction a bp:Control ;
+  bp:controller :GAK ;
+  bp:controlled :VHL ;
+  bp:evidence "2 occurrences" .
+
+:GART_to_PBRM1_interaction a bp:Control ;
+  bp:controller :GART ;
+  bp:controlled :PBRM1 ;
+  bp:evidence "2 occurrences" .
+
+:GART_to_RB1_interaction a bp:Control ;
+  bp:controller :GART ;
+  bp:controlled :RB1 ;
+  bp:evidence "2 occurrences" .
+
+:MED13_to_KEAP1_interaction a bp:Control ;
+  bp:controller :MED13 ;
+  bp:controlled :KEAP1 ;
+  bp:evidence "2 occurrences" .
+
+:MED13_to_RB1_interaction a bp:Control ;
+  bp:controller :MED13 ;
+  bp:controlled :RB1 ;
+  bp:evidence "2 occurrences" .
+
+:PIN1_to_KEAP1_interaction a bp:Control ;
+  bp:controller :PIN1 ;
+  bp:controlled :KEAP1 ;
+  bp:evidence "2 occurrences" .
+
+:PIN1_to_RB1_interaction a bp:Control ;
+  bp:controller :PIN1 ;
+  bp:controlled :RB1 ;
+  bp:evidence "2 occurrences" .
+
+:STAC2_to_KEAP1_interaction a bp:Control ;
+  bp:controller :STAC2 ;
+  bp:controlled :KEAP1 ;
+  bp:evidence "2 occurrences" .
+
+:STAC2_to_RB1_interaction a bp:Control ;
+  bp:controller :STAC2 ;
+  bp:controlled :RB1 ;
+  bp:evidence "2 occurrences" .
+
+:TADA1_to_RB1_interaction a bp:Control ;
+  bp:controller :TADA1 ;
+  bp:controlled :RB1 ;
+  bp:evidence "2 occurrences" .
+
+:TADA1_to_TP53_interaction a bp:Control ;
+  bp:controller :TADA1 ;
+  bp:controlled :TP53 ;
+  bp:evidence "2 occurrences" .
+
+:UNC13D_to_RB1_interaction a bp:Control ;
+  bp:controller :UNC13D ;
+  bp:controlled :RB1 ;
+  bp:evidence "2 occurrences" .
+
+:UNC13D_to_TP53_interaction a bp:Control ;
+  bp:controller :UNC13D ;
+  bp:controlled :TP53 ;
+  bp:evidence "2 occurrences" .
+
+:VGLL3_to_KEAP1_interaction a bp:Control ;
+  bp:controller :VGLL3 ;
+  bp:controlled :KEAP1 ;
+  bp:evidence "2 occurrences" .
+
+:VGLL3_to_RB1_interaction a bp:Control ;
+  bp:controller :VGLL3 ;
+  bp:controlled :RB1 ;
+  bp:evidence "2 occurrences" .
+
+:TYMS_to_LKB1_interaction a bp:Control ;
+  bp:controller :TYMS ;
+  bp:controlled :LKB1 ;
+  bp:evidence "7 occurrences" .
+
+:TYMS_to_NF1_interaction a bp:Control ;
+  bp:controller :TYMS ;
+  bp:controlled :NF1 ;
+  bp:evidence "7 occurrences" .
+
+:TYMS_to_NF2_interaction a bp:Control ;
+  bp:controller :TYMS ;
+  bp:controlled :NF2 ;
+  bp:evidence "7 occurrences" .
+
+:TYMS_to_PBRM1_interaction a bp:Control ;
+  bp:controller :TYMS ;
+  bp:controlled :PBRM1 ;
+  bp:evidence "7 occurrences" .
+
+:TYMS_to_PTEN_interaction a bp:Control ;
+  bp:controller :TYMS ;
+  bp:controlled :PTEN ;
+  bp:evidence "7 occurrences" .
+
+:TYMS_to_TP53_interaction a bp:Control ;
+  bp:controller :TYMS ;
+  bp:controlled :TP53 ;
+  bp:evidence "7 occurrences" .
+
+:TYMS_to_TP53BP1_interaction a bp:Control ;
+  bp:controller :TYMS ;
+  bp:controlled :TP53BP1 ;
+  bp:evidence "7 occurrences" .
+
+:UBE2T_to_CDH1_interaction a bp:Control ;
+  bp:controller :UBE2T ;
+  bp:controlled :CDH1 ;
+  bp:evidence "6 occurrences" .
+
+:UBE2T_to_LKB1_interaction a bp:Control ;
+  bp:controller :UBE2T ;
+  bp:controlled :LKB1 ;
+  bp:evidence "6 occurrences" .
+
+:UBE2T_to_NF1_interaction a bp:Control ;
+  bp:controller :UBE2T ;
+  bp:controlled :NF1 ;
+  bp:evidence "6 occurrences" .
+
+:UBE2T_to_NF2_interaction a bp:Control ;
+  bp:controller :UBE2T ;
+  bp:controlled :NF2 ;
+  bp:evidence "6 occurrences" .
+
+:UBE2T_to_PBRM1_interaction a bp:Control ;
+  bp:controller :UBE2T ;
+  bp:controlled :PBRM1 ;
+  bp:evidence "6 occurrences" .
+
+:UBE2T_to_TP53BP1_interaction a bp:Control ;
+  bp:controller :UBE2T ;
+  bp:controlled :TP53BP1 ;
+  bp:evidence "6 occurrences" .
+
+:BRIP1_to_LKB1_interaction a bp:Control ;
+  bp:controller :BRIP1 ;
+  bp:controlled :LKB1 ;
+  bp:evidence "5 occurrences" .
+
+:BRIP1_to_NF1_interaction a bp:Control ;
+  bp:controller :BRIP1 ;
+  bp:controlled :NF1 ;
+  bp:evidence "5 occurrences" .
+
+:BRIP1_to_NF2_interaction a bp:Control ;
+  bp:controller :BRIP1 ;
+  bp:controlled :NF2 ;
+  bp:evidence "5 occurrences" .
+
+:BRIP1_to_PBRM1_interaction a bp:Control ;
+  bp:controller :BRIP1 ;
+  bp:controlled :PBRM1 ;
+  bp:evidence "5 occurrences" .
+
+:BRIP1_to_VHL_interaction a bp:Control ;
+  bp:controller :BRIP1 ;
+  bp:controlled :VHL ;
+  bp:evidence "5 occurrences" .
+
+:DDX19A_to_ARID1A_interaction a bp:Control ;
+  bp:controller :DDX19A ;
+  bp:controlled :ARID1A ;
+  bp:evidence "5 occurrences" .
+
+:DDX19A_to_CDH1_interaction a bp:Control ;
+  bp:controller :DDX19A ;
+  bp:controlled :CDH1 ;
+  bp:evidence "5 occurrences" .
+
+:DDX19A_to_NF2_interaction a bp:Control ;
+  bp:controller :DDX19A ;
+  bp:controlled :NF2 ;
+  bp:evidence "5 occurrences" .
+
+:DDX19A_to_PBRM1_interaction a bp:Control ;
+  bp:controller :DDX19A ;
+  bp:controlled :PBRM1 ;
+  bp:evidence "5 occurrences" .
+
+:DDX19A_to_RB1_interaction a bp:Control ;
+  bp:controller :DDX19A ;
+  bp:controlled :RB1 ;
+  bp:evidence "5 occurrences" .
+
+:PPP2R3C_to_CDH1_interaction a bp:Control ;
+  bp:controller :PPP2R3C ;
+  bp:controlled :CDH1 ;
+  bp:evidence "5 occurrences" .
+
+:PPP2R3C_to_LKB1_interaction a bp:Control ;
+  bp:controller :PPP2R3C ;
+  bp:controlled :LKB1 ;
+  bp:evidence "5 occurrences" .
+
+:PPP2R3C_to_NF2_interaction a bp:Control ;
+  bp:controller :PPP2R3C ;
+  bp:controlled :NF2 ;
+  bp:evidence "5 occurrences" .
+
+:PPP2R3C_to_RB1_interaction a bp:Control ;
+  bp:controller :PPP2R3C ;
+  bp:controlled :RB1 ;
+  bp:evidence "5 occurrences" .
+
+:PPP2R3C_to_VHL_interaction a bp:Control ;
+  bp:controller :PPP2R3C ;
+  bp:controlled :VHL ;
+  bp:evidence "5 occurrences" .
+
+:RPRD1B_to_LKB1_interaction a bp:Control ;
+  bp:controller :RPRD1B ;
+  bp:controlled :LKB1 ;
+  bp:evidence "5 occurrences" .
+
+:RPRD1B_to_NF1_interaction a bp:Control ;
+  bp:controller :RPRD1B ;
+  bp:controlled :NF1 ;
+  bp:evidence "5 occurrences" .
+
+:RPRD1B_to_PTEN_interaction a bp:Control ;
+  bp:controller :RPRD1B ;
+  bp:controlled :PTEN ;
+  bp:evidence "5 occurrences" .
+
+:RPRD1B_to_TP53_interaction a bp:Control ;
+  bp:controller :RPRD1B ;
+  bp:controlled :TP53 ;
+  bp:evidence "5 occurrences" .
+
+:RPRD1B_to_VHL_interaction a bp:Control ;
+  bp:controller :RPRD1B ;
+  bp:controlled :VHL ;
+  bp:evidence "5 occurrences" .
+
+:BPTF_to_ARID1A_interaction a bp:Control ;
+  bp:controller :BPTF ;
+  bp:controlled :ARID1A ;
+  bp:evidence "4 occurrences" .
+
+:BPTF_to_KEAP1_interaction a bp:Control ;
+  bp:controller :BPTF ;
+  bp:controlled :KEAP1 ;
+  bp:evidence "4 occurrences" .
+
+:BPTF_to_PBRM1_interaction a bp:Control ;
+  bp:controller :BPTF ;
+  bp:controlled :PBRM1 ;
+  bp:evidence "4 occurrences" .
+
+:BPTF_to_TP53_interaction a bp:Control ;
+  bp:controller :BPTF ;
+  bp:controlled :TP53 ;
+  bp:evidence "4 occurrences" .
+
+:FANCA_to_LKB1_interaction a bp:Control ;
+  bp:controller :FANCA ;
+  bp:controlled :LKB1 ;
+  bp:evidence "4 occurrences" .
+
+:FANCA_to_NF2_interaction a bp:Control ;
+  bp:controller :FANCA ;
+  bp:controlled :NF2 ;
+  bp:evidence "4 occurrences" .
+
+:FANCA_to_PBRM1_interaction a bp:Control ;
+  bp:controller :FANCA ;
+  bp:controlled :PBRM1 ;
+  bp:evidence "4 occurrences" .
+
+:FANCA_to_VHL_interaction a bp:Control ;
+  bp:controller :FANCA ;
+  bp:controlled :VHL ;
+  bp:evidence "4 occurrences" .
+
+:FANCD2_to_CDH1_interaction a bp:Control ;
+  bp:controller :FANCD2 ;
+  bp:controlled :CDH1 ;
+  bp:evidence "4 occurrences" .
+
+:FANCD2_to_NF2_interaction a bp:Control ;
+  bp:controller :FANCD2 ;
+  bp:controlled :NF2 ;
+  bp:evidence "4 occurrences" .
+
+:FANCD2_to_PBRM1_interaction a bp:Control ;
+  bp:controller :FANCD2 ;
+  bp:controlled :PBRM1 ;
+  bp:evidence "4 occurrences" .
+
+:FANCD2_to_TP53BP1_interaction a bp:Control ;
+  bp:controller :FANCD2 ;
+  bp:controlled :TP53BP1 ;
+  bp:evidence "4 occurrences" .
+
+:FANCF_to_CDH1_interaction a bp:Control ;
+  bp:controller :FANCF ;
+  bp:controlled :CDH1 ;
+  bp:evidence "4 occurrences" .
+
+:FANCF_to_LKB1_interaction a bp:Control ;
+  bp:controller :FANCF ;
+  bp:controlled :LKB1 ;
+  bp:evidence "4 occurrences" .
+
+:FANCF_to_NF2_interaction a bp:Control ;
+  bp:controller :FANCF ;
+  bp:controlled :NF2 ;
+  bp:evidence "4 occurrences" .
+
+:FANCF_to_PBRM1_interaction a bp:Control ;
+  bp:controller :FANCF ;
+  bp:controlled :PBRM1 ;
+  bp:evidence "4 occurrences" .
+
+:MCM9_to_LKB1_interaction a bp:Control ;
+  bp:controller :MCM9 ;
+  bp:controlled :LKB1 ;
+  bp:evidence "4 occurrences" .
+
+:MCM9_to_NF2_interaction a bp:Control ;
+  bp:controller :MCM9 ;
+  bp:controlled :NF2 ;
+  bp:evidence "4 occurrences" .
+
+:MCM9_to_VHL_interaction a bp:Control ;
+  bp:controller :MCM9 ;
+  bp:controlled :VHL ;
+  bp:evidence "4 occurrences" .
+
+:MCM9_to_TP53BP1_interaction a bp:Control ;
+  bp:controller :MCM9 ;
+  bp:controlled :TP53BP1 ;
+  bp:evidence "4 occurrences" .
+
+:SDHB_to_BAP1_interaction a bp:Control ;
+  bp:controller :SDHB ;
+  bp:controlled :BAP1 ;
+  bp:evidence "4 occurrences" .
+
+:SDHB_to_LKB1_interaction a bp:Control ;
+  bp:controller :SDHB ;
+  bp:controlled :LKB1 ;
+  bp:evidence "4 occurrences" .
+
+:SDHB_to_PBRM1_interaction a bp:Control ;
+  bp:controller :SDHB ;
+  bp:controlled :PBRM1 ;
+  bp:evidence "4 occurrences" .
+
+:SDHB_to_VHL_interaction a bp:Control ;
+  bp:controller :SDHB ;
+  bp:controlled :VHL ;
+  bp:evidence "4 occurrences" .
+
+:USPL1_to_BAP1_interaction a bp:Control ;
+  bp:controller :USPL1 ;
+  bp:controlled :BAP1 ;
+  bp:evidence "4 occurrences" .
+
+:USPL1_to_NF2_interaction a bp:Control ;
+  bp:controller :USPL1 ;
+  bp:controlled :NF2 ;
+  bp:evidence "4 occurrences" .
+
+:USPL1_to_PTEN_interaction a bp:Control ;
+  bp:controller :USPL1 ;
+  bp:controlled :PTEN ;
+  bp:evidence "4 occurrences" .
+
+:USPL1_to_TP53BP1_interaction a bp:Control ;
+  bp:controller :USPL1 ;
+  bp:controlled :TP53BP1 ;
+  bp:evidence "4 occurrences" .
+
+:ATG9A_to_LKB1_interaction a bp:Control ;
+  bp:controller :ATG9A ;
+  bp:controlled :LKB1 ;
+  bp:evidence "3 occurrences" .
+
+:ATG9A_to_NF1_interaction a bp:Control ;
+  bp:controller :ATG9A ;
+  bp:controlled :NF1 ;
+  bp:evidence "3 occurrences" .
+
+:ATG9A_to_VHL_interaction a bp:Control ;
+  bp:controller :ATG9A ;
+  bp:controlled :VHL ;
+  bp:evidence "3 occurrences" .
+
+:C16orf72_to_ARID1A_interaction a bp:Control ;
+  bp:controller :C16orf72 ;
+  bp:controlled :ARID1A ;
+  bp:evidence "3 occurrences" .
+
+:C16orf72_to_BAP1_interaction a bp:Control ;
+  bp:controller :C16orf72 ;
+  bp:controlled :BAP1 ;
+  bp:evidence "3 occurrences" .
+
+:C16orf72_to_NF1_interaction a bp:Control ;
+  bp:controller :C16orf72 ;
+  bp:controlled :NF1 ;
+  bp:evidence "3 occurrences" .
+
+:COQ2_to_BAP1_interaction a bp:Control ;
+  bp:controller :COQ2 ;
+  bp:controlled :BAP1 ;
+  bp:evidence "3 occurrences" .
+
+:COQ2_to_KEAP1_interaction a bp:Control ;
+  bp:controller :COQ2 ;
+  bp:controlled :KEAP1 ;
+  bp:evidence "3 occurrences" .
+
+:COQ2_to_RB1_interaction a bp:Control ;
+  bp:controller :COQ2 ;
+  bp:controlled :RB1 ;
+  bp:evidence "3 occurrences" .
+
+:FAM106A_to_LKB1_interaction a bp:Control ;
+  bp:controller :FAM106A ;
+  bp:controlled :LKB1 ;
+  bp:evidence "3 occurrences" .
+
+:FAM106A_to_NF1_interaction a bp:Control ;
+  bp:controller :FAM106A ;
+  bp:controlled :NF1 ;
+  bp:evidence "3 occurrences" .
+
+:FAM106A_to_PTEN_interaction a bp:Control ;
+  bp:controller :FAM106A ;
+  bp:controlled :PTEN ;
+  bp:evidence "3 occurrences" .
+
+:FBXW11_to_LKB1_interaction a bp:Control ;
+  bp:controller :FBXW11 ;
+  bp:controlled :LKB1 ;
+  bp:evidence "3 occurrences" .
+
+:FBXW11_to_NF1_interaction a bp:Control ;
+  bp:controller :FBXW11 ;
+  bp:controlled :NF1 ;
+  bp:evidence "3 occurrences" .
+
+:FBXW11_to_VHL_interaction a bp:Control ;
+  bp:controller :FBXW11 ;
+  bp:controlled :VHL ;
+  bp:evidence "3 occurrences" .
+
+:NDUFC1_to_NF1_interaction a bp:Control ;
+  bp:controller :NDUFC1 ;
+  bp:controlled :NF1 ;
+  bp:evidence "3 occurrences" .
+
+:NDUFC1_to_PBRM1_interaction a bp:Control ;
+  bp:controller :NDUFC1 ;
+  bp:controlled :PBRM1 ;
+  bp:evidence "3 occurrences" .
+
+:NDUFC1_to_PTEN_interaction a bp:Control ;
+  bp:controller :NDUFC1 ;
+  bp:controlled :PTEN ;
+  bp:evidence "3 occurrences" .
+
+:PMVK_to_BAP1_interaction a bp:Control ;
+  bp:controller :PMVK ;
+  bp:controlled :BAP1 ;
+  bp:evidence "3 occurrences" .
+
+:PMVK_to_NF1_interaction a bp:Control ;
+  bp:controller :PMVK ;
+  bp:controlled :NF1 ;
+  bp:evidence "3 occurrences" .
+
+:PMVK_to_NF2_interaction a bp:Control ;
+  bp:controller :PMVK ;
+  bp:controlled :NF2 ;
+  bp:evidence "3 occurrences" .
+
+:PRDX1_to_NF1_interaction a bp:Control ;
+  bp:controller :PRDX1 ;
+  bp:controlled :NF1 ;
+  bp:evidence "3 occurrences" .
+
+:PRDX1_to_NF2_interaction a bp:Control ;
+  bp:controller :PRDX1 ;
+  bp:controlled :NF2 ;
+  bp:evidence "3 occurrences" .
+
+:PRDX1_to_PBRM1_interaction a bp:Control ;
+  bp:controller :PRDX1 ;
+  bp:controlled :PBRM1 ;
+  bp:evidence "3 occurrences" .
+
+:PRKRA_to_LKB1_interaction a bp:Control ;
+  bp:controller :PRKRA ;
+  bp:controlled :LKB1 ;
+  bp:evidence "3 occurrences" .
+
+:PRKRA_to_NF1_interaction a bp:Control ;
+  bp:controller :PRKRA ;
+  bp:controlled :NF1 ;
+  bp:evidence "3 occurrences" .
+
+:PRKRA_to_VHL_interaction a bp:Control ;
+  bp:controller :PRKRA ;
+  bp:controlled :VHL ;
+  bp:evidence "3 occurrences" .
+
+:SLC25A33_to_LKB1_interaction a bp:Control ;
+  bp:controller :SLC25A33 ;
+  bp:controlled :LKB1 ;
+  bp:evidence "3 occurrences" .
+
+:SLC25A33_to_VHL_interaction a bp:Control ;
+  bp:controller :SLC25A33 ;
+  bp:controlled :VHL ;
+  bp:evidence "3 occurrences" .
+
+:SLC25A33_to_TP53BP1_interaction a bp:Control ;
+  bp:controller :SLC25A33 ;
+  bp:controlled :TP53BP1 ;
+  bp:evidence "3 occurrences" .
+
+:UIMC1_to_CDH1_interaction a bp:Control ;
+  bp:controller :UIMC1 ;
+  bp:controlled :CDH1 ;
+  bp:evidence "3 occurrences" .
+
+:UIMC1_to_KEAP1_interaction a bp:Control ;
+  bp:controller :UIMC1 ;
+  bp:controlled :KEAP1 ;
+  bp:evidence "3 occurrences" .
+
+:UIMC1_to_NF1_interaction a bp:Control ;
+  bp:controller :UIMC1 ;
+  bp:controlled :NF1 ;
+  bp:evidence "3 occurrences" .
+
+:UMPS_to_PBRM1_interaction a bp:Control ;
+  bp:controller :UMPS ;
+  bp:controlled :PBRM1 ;
+  bp:evidence "3 occurrences" .
+
+:UMPS_to_RB1_interaction a bp:Control ;
+  bp:controller :UMPS ;
+  bp:controlled :RB1 ;
+  bp:evidence "3 occurrences" .
+
+:UMPS_to_VHL_interaction a bp:Control ;
+  bp:controller :UMPS ;
+  bp:controlled :VHL ;
+  bp:evidence "3 occurrences" .
+
+:ARID2_to_LKB1_interaction a bp:Control ;
+  bp:controller :ARID2 ;
+  bp:controlled :LKB1 ;
+  bp:evidence "2 occurrences" .
+
+:ARID2_to_NF2_interaction a bp:Control ;
+  bp:controller :ARID2 ;
+  bp:controlled :NF2 ;
+  bp:evidence "2 occurrences" .
+
+:BIRC6_to_LKB1_interaction a bp:Control ;
+  bp:controller :BIRC6 ;
+  bp:controlled :LKB1 ;
+  bp:evidence "2 occurrences" .
+
+:BIRC6_to_VHL_interaction a bp:Control ;
+  bp:controller :BIRC6 ;
+  bp:controlled :VHL ;
+  bp:evidence "2 occurrences" .
+
+:BUB1_to_ARID1A_interaction a bp:Control ;
+  bp:controller :BUB1 ;
+  bp:controlled :ARID1A ;
+  bp:evidence "2 occurrences" .
+
+:BUB1_to_CDH1_interaction a bp:Control ;
+  bp:controller :BUB1 ;
+  bp:controlled :CDH1 ;
+  bp:evidence "2 occurrences" .
+
+:BZW1_to_BAP1_interaction a bp:Control ;
+  bp:controller :BZW1 ;
+  bp:controlled :BAP1 ;
+  bp:evidence "2 occurrences" .
+
+:BZW1_to_NF2_interaction a bp:Control ;
+  bp:controller :BZW1 ;
+  bp:controlled :NF2 ;
+  bp:evidence "2 occurrences" .
+
+:C12orf44_to_LKB1_interaction a bp:Control ;
+  bp:controller :C12orf44 ;
+  bp:controlled :LKB1 ;
+  bp:evidence "2 occurrences" .
+
+:C12orf44_to_VHL_interaction a bp:Control ;
+  bp:controller :C12orf44 ;
+  bp:controlled :VHL ;
+  bp:evidence "2 occurrences" .
+
+:C1orf228_to_CDH1_interaction a bp:Control ;
+  bp:controller :C1orf228 ;
+  bp:controlled :CDH1 ;
+  bp:evidence "2 occurrences" .
+
+:C1orf228_to_VHL_interaction a bp:Control ;
+  bp:controller :C1orf228 ;
+  bp:controlled :VHL ;
+  bp:evidence "2 occurrences" .
+
+:CAB39_to_TP53_interaction a bp:Control ;
+  bp:controller :CAB39 ;
+  bp:controlled :TP53 ;
+  bp:evidence "2 occurrences" .
+
+:CAB39_to_VHL_interaction a bp:Control ;
+  bp:controller :CAB39 ;
+  bp:controlled :VHL ;
+  bp:evidence "2 occurrences" .
+
+:CAPRIN1_to_CDH1_interaction a bp:Control ;
+  bp:controller :CAPRIN1 ;
+  bp:controlled :CDH1 ;
+  bp:evidence "2 occurrences" .
+
+:CAPRIN1_to_VHL_interaction a bp:Control ;
+  bp:controller :CAPRIN1 ;
+  bp:controlled :VHL ;
+  bp:evidence "2 occurrences" .
+
+:CHMP6_to_ARID1A_interaction a bp:Control ;
+  bp:controller :CHMP6 ;
+  bp:controlled :ARID1A ;
+  bp:evidence "2 occurrences" .
+
+:CHMP6_to_TP53BP1_interaction a bp:Control ;
+  bp:controller :CHMP6 ;
+  bp:controlled :TP53BP1 ;
+  bp:evidence "2 occurrences" .
+
+:CNKSR2_to_NF1_interaction a bp:Control ;
+  bp:controller :CNKSR2 ;
+  bp:controlled :NF1 ;
+  bp:evidence "2 occurrences" .
+
+:CNKSR2_to_TP53_interaction a bp:Control ;
+  bp:controller :CNKSR2 ;
+  bp:controlled :TP53 ;
+  bp:evidence "2 occurrences" .
+
+:CNOT4_to_PTEN_interaction a bp:Control ;
+  bp:controller :CNOT4 ;
+  bp:controlled :PTEN ;
+  bp:evidence "2 occurrences" .
+
+:CNOT4_to_VHL_interaction a bp:Control ;
+  bp:controller :CNOT4 ;
+  bp:controlled :VHL ;
+  bp:evidence "2 occurrences" .
+
+:CTBP2_to_KEAP1_interaction a bp:Control ;
+  bp:controller :CTBP2 ;
+  bp:controlled :KEAP1 ;
+  bp:evidence "2 occurrences" .
+
+:CTBP2_to_RB1_interaction a bp:Control ;
+  bp:controller :CTBP2 ;
+  bp:controlled :RB1 ;
+  bp:evidence "2 occurrences" .
+
+:DHODH_to_BAP1_interaction a bp:Control ;
+  bp:controller :DHODH ;
+  bp:controlled :BAP1 ;
+  bp:evidence "2 occurrences" .
+
+:DHODH_to_VHL_interaction a bp:Control ;
+  bp:controller :DHODH ;
+  bp:controlled :VHL ;
+  bp:evidence "2 occurrences" .
+
+:DHX35_to_LKB1_interaction a bp:Control ;
+  bp:controller :DHX35 ;
+  bp:controlled :LKB1 ;
+  bp:evidence "2 occurrences" .
+
+:DHX35_to_VHL_interaction a bp:Control ;
+  bp:controller :DHX35 ;
+  bp:controlled :VHL ;
+  bp:evidence "2 occurrences" .
+
+:EBNA1BP2_to_NF1_interaction a bp:Control ;
+  bp:controller :EBNA1BP2 ;
+  bp:controlled :NF1 ;
+  bp:evidence "2 occurrences" .
+
+:EBNA1BP2_to_RB1_interaction a bp:Control ;
+  bp:controller :EBNA1BP2 ;
+  bp:controlled :RB1 ;
+  bp:evidence "2 occurrences" .
+
+:ELMO2_to_KEAP1_interaction a bp:Control ;
+  bp:controller :ELMO2 ;
+  bp:controlled :KEAP1 ;
+  bp:evidence "2 occurrences" .
+
+:ELMO2_to_RB1_interaction a bp:Control ;
+  bp:controller :ELMO2 ;
+  bp:controlled :RB1 ;
+  bp:evidence "2 occurrences" .
+
+:FBXO42_to_LKB1_interaction a bp:Control ;
+  bp:controller :FBXO42 ;
+  bp:controlled :LKB1 ;
+  bp:evidence "2 occurrences" .
+
+:FBXO42_to_VHL_interaction a bp:Control ;
+  bp:controller :FBXO42 ;
+  bp:controlled :VHL ;
+  bp:evidence "2 occurrences" .
+
+:G6PC_to_KEAP1_interaction a bp:Control ;
+  bp:controller :G6PC ;
+  bp:controlled :KEAP1 ;
+  bp:evidence "2 occurrences" .
+
+:G6PC_to_NF1_interaction a bp:Control ;
+  bp:controller :G6PC ;
+  bp:controlled :NF1 ;
+  bp:evidence "2 occurrences" .
+
+:GAK_to_RB1_interaction a bp:Control ;
+  bp:controller :GAK ;
+  bp:controlled :RB1 ;
+  bp:evidence "2 occurrences" .
+
+:GAK_to_VHL_interaction a bp:Control ;
+  bp:controller :GAK ;
+  bp:controlled :VHL ;
+  bp:evidence "2 occurrences" .
+
+:GART_to_PBRM1_interaction a bp:Control ;
+  bp:controller :GART ;
+  bp:controlled :PBRM1 ;
+  bp:evidence "2 occurrences" .
+
+:GART_to_RB1_interaction a bp:Control ;
+  bp:controller :GART ;
+  bp:controlled :RB1 ;
+  bp:evidence "2 occurrences" .
+
+:GTPBP2_to_LKB1_interaction a bp:Control ;
+  bp:controller :GTPBP2 ;
+  bp:controlled :LKB1 ;
+  bp:evidence "2 occurrences" .
+
+:GTPBP2_to_VHL_interaction a bp:Control ;
+  bp:controller :GTPBP2 ;
+  bp:controlled :VHL ;
+  bp:evidence "2 occurrences" .
+
+:IGFALS_to_ARID1A_interaction a bp:Control ;
+  bp:controller :IGFALS ;
+  bp:controlled :ARID1A ;
+  bp:evidence "2 occurrences" .
+
+:IGFALS_to_VHL_interaction a bp:Control ;
+  bp:controller :IGFALS ;
+  bp:controlled :VHL ;
+  bp:evidence "2 occurrences" .
+
+:IKBKG_to_LKB1_interaction a bp:Control ;
+  bp:controller :IKBKG ;
+  bp:controlled :LKB1 ;
+  bp:evidence "2 occurrences" .
+
+:IKBKG_to_TP53BP1_interaction a bp:Control ;
+  bp:controller :IKBKG ;
+  bp:controlled :TP53BP1 ;
+  bp:evidence "2 occurrences" .
+
+:JTB_to_LKB1_interaction a bp:Control ;
+  bp:controller :JTB ;
+  bp:controlled :LKB1 ;
+  bp:evidence "2 occurrences" .
+
+:JTB_to_NF1_interaction a bp:Control ;
+  bp:controller :JTB ;
+  bp:controlled :NF1 ;
+  bp:evidence "2 occurrences" .
+
+:KIAA1524_to_NF1_interaction a bp:Control ;
+  bp:controller :KIAA1524 ;
+  bp:controlled :NF1 ;
+  bp:evidence "2 occurrences" .
+
+:KIAA1524_to_VHL_interaction a bp:Control ;
+  bp:controller :KIAA1524 ;
+  bp:controlled :VHL ;
+  bp:evidence "2 occurrences" .
+
+:KPNA4_to_LKB1_interaction a bp:Control ;
+  bp:controller :KPNA4 ;
+  bp:controlled :LKB1 ;
+  bp:evidence "2 occurrences" .
+
+:KPNA4_to_VHL_interaction a bp:Control ;
+  bp:controller :KPNA4 ;
+  bp:controlled :VHL ;
+  bp:evidence "2 occurrences" .
+
+:MAPKAP1_to_PBRM1_interaction a bp:Control ;
+  bp:controller :MAPKAP1 ;
+  bp:controlled :PBRM1 ;
+  bp:evidence "2 occurrences" .
+
+:MAPKAP1_to_TP53BP1_interaction a bp:Control ;
+  bp:controller :MAPKAP1 ;
+  bp:controlled :TP53BP1 ;
+  bp:evidence "2 occurrences" .
+
+:MED13_to_KEAP1_interaction a bp:Control ;
+  bp:controller :MED13 ;
+  bp:controlled :KEAP1 ;
+  bp:evidence "2 occurrences" .
+
+:MED13_to_RB1_interaction a bp:Control ;
+  bp:controller :MED13 ;
+  bp:controlled :RB1 ;
+  bp:evidence "2 occurrences" .
+
+:MPV17_to_LKB1_interaction a bp:Control ;
+  bp:controller :MPV17 ;
+  bp:controlled :LKB1 ;
+  bp:evidence "2 occurrences" .
+
+:MPV17_to_VHL_interaction a bp:Control ;
+  bp:controller :MPV17 ;
+  bp:controlled :VHL ;
+  bp:evidence "2 occurrences" .
+
+:MTFMT_to_LKB1_interaction a bp:Control ;
+  bp:controller :MTFMT ;
+  bp:controlled :LKB1 ;
+  bp:evidence "2 occurrences" .
+
+:MTFMT_to_VHL_interaction a bp:Control ;
+  bp:controller :MTFMT ;
+  bp:controlled :VHL ;
+  bp:evidence "2 occurrences" .
+
+:NDUFB6_to_LKB1_interaction a bp:Control ;
+  bp:controller :NDUFB6 ;
+  bp:controlled :LKB1 ;
+  bp:evidence "2 occurrences" .
+
+:NDUFB6_to_NF1_interaction a bp:Control ;
+  bp:controller :NDUFB6 ;
+  bp:controlled :NF1 ;
+  bp:evidence "2 occurrences" .
+
+:NUP160_to_ARID1A_interaction a bp:Control ;
+  bp:controller :NUP160 ;
+  bp:controlled :ARID1A ;
+  bp:evidence "2 occurrences" .
+
+:NUP160_to_PBRM1_interaction a bp:Control ;
+  bp:controller :NUP160 ;
+  bp:controlled :PBRM1 ;
+  bp:evidence "2 occurrences" .
+
+:PARD6B_to_PBRM1_interaction a bp:Control ;
+  bp:controller :PARD6B ;
+  bp:controlled :PBRM1 ;
+  bp:evidence "2 occurrences" .
+
+:PARD6B_to_PTEN_interaction a bp:Control ;
+  bp:controller :PARD6B ;
+  bp:controlled :PTEN ;
+  bp:evidence "2 occurrences" .
+
+:PDIA3_to_PBRM1_interaction a bp:Control ;
+  bp:controller :PDIA3 ;
+  bp:controlled :PBRM1 ;
+  bp:evidence "2 occurrences" .
+
+:PDIA3_to_VHL_interaction a bp:Control ;
+  bp:controller :PDIA3 ;
+  bp:controlled :VHL ;
+  bp:evidence "2 occurrences" .
+
+:PDS5A_to_LKB1_interaction a bp:Control ;
+  bp:controller :PDS5A ;
+  bp:controlled :LKB1 ;
+  bp:evidence "2 occurrences" .
+
+:PDS5A_to_VHL_interaction a bp:Control ;
+  bp:controller :PDS5A ;
+  bp:controlled :VHL ;
+  bp:evidence "2 occurrences" .
+
+:PIN1_to_KEAP1_interaction a bp:Control ;
+  bp:controller :PIN1 ;
+  bp:controlled :KEAP1 ;
+  bp:evidence "2 occurrences" .
+
+:PIN1_to_RB1_interaction a bp:Control ;
+  bp:controller :PIN1 ;
+  bp:controlled :RB1 ;
+  bp:evidence "2 occurrences" .
+
+:PSMF1_to_LKB1_interaction a bp:Control ;
+  bp:controller :PSMF1 ;
+  bp:controlled :LKB1 ;
+  bp:evidence "2 occurrences" .
+
+:PSMF1_to_VHL_interaction a bp:Control ;
+  bp:controller :PSMF1 ;
+  bp:controlled :VHL ;
+  bp:evidence "2 occurrences" .
+
+:RAD54L_to_PTEN_interaction a bp:Control ;
+  bp:controller :RAD54L ;
+  bp:controlled :PTEN ;
+  bp:evidence "2 occurrences" .
+
+:RAD54L_to_VHL_interaction a bp:Control ;
+  bp:controller :RAD54L ;
+  bp:controlled :VHL ;
+  bp:evidence "2 occurrences" .
+
+:RMI2_to_CDH1_interaction a bp:Control ;
+  bp:controller :RMI2 ;
+  bp:controlled :CDH1 ;
+  bp:evidence "2 occurrences" .
+
+:RMI2_to_TP53BP1_interaction a bp:Control ;
+  bp:controller :RMI2 ;
+  bp:controlled :TP53BP1 ;
+  bp:evidence "2 occurrences" .
+
+:RRAS2_to_BAP1_interaction a bp:Control ;
+  bp:controller :RRAS2 ;
+  bp:controlled :BAP1 ;
+  bp:evidence "2 occurrences" .
+
+:RRAS2_to_KEAP1_interaction a bp:Control ;
+  bp:controller :RRAS2 ;
+  bp:controlled :KEAP1 ;
+  bp:evidence "2 occurrences" .
+
+:SDHD_to_BAP1_interaction a bp:Control ;
+  bp:controller :SDHD ;
+  bp:controlled :BAP1 ;
+  bp:evidence "2 occurrences" .
+
+:SDHD_to_VHL_interaction a bp:Control ;
+  bp:controller :SDHD ;
+  bp:controlled :VHL ;
+  bp:evidence "2 occurrences" .
+
+:SHBG_to_KEAP1_interaction a bp:Control ;
+  bp:controller :SHBG ;
+  bp:controlled :KEAP1 ;
+  bp:evidence "2 occurrences" .
+
+:SHBG_to_NF1_interaction a bp:Control ;
+  bp:controller :SHBG ;
+  bp:controlled :NF1 ;
+  bp:evidence "2 occurrences" .
+
+:STAC2_to_KEAP1_interaction a bp:Control ;
+  bp:controller :STAC2 ;
+  bp:controlled :KEAP1 ;
+  bp:evidence "2 occurrences" .
+
+:STAC2_to_RB1_interaction a bp:Control ;
+  bp:controller :STAC2 ;
+  bp:controlled :RB1 ;
+  bp:evidence "2 occurrences" .
+
+:STUB1_to_BAP1_interaction a bp:Control ;
+  bp:controller :STUB1 ;
+  bp:controlled :BAP1 ;
+  bp:evidence "2 occurrences" .
+
+:STUB1_to_NF1_interaction a bp:Control ;
+  bp:controller :STUB1 ;
+  bp:controlled :NF1 ;
+  bp:evidence "2 occurrences" .
+
+:TADA1_to_RB1_interaction a bp:Control ;
+  bp:controller :TADA1 ;
+  bp:controlled :RB1 ;
+  bp:evidence "2 occurrences" .
+
+:TADA1_to_TP53_interaction a bp:Control ;
+  bp:controller :TADA1 ;
+  bp:controlled :TP53 ;
+  bp:evidence "2 occurrences" .
+
+:TMCO6_to_KEAP1_interaction a bp:Control ;
+  bp:controller :TMCO6 ;
+  bp:controlled :KEAP1 ;
+  bp:evidence "2 occurrences" .
+
+:TMCO6_to_PTEN_interaction a bp:Control ;
+  bp:controller :TMCO6 ;
+  bp:controlled :PTEN ;
+  bp:evidence "2 occurrences" .
+
+:DMAC1_to_BAP1_interaction a bp:Control ;
+  bp:controller :DMAC1 ;
+  bp:controlled :BAP1 ;
+  bp:evidence "2 occurrences" .
+
+:DMAC1_to_NF1_interaction a bp:Control ;
+  bp:controller :DMAC1 ;
+  bp:controlled :NF1 ;
+  bp:evidence "2 occurrences" .
+
+:TOR4A_to_NF1_interaction a bp:Control ;
+  bp:controller :TOR4A ;
+  bp:controlled :NF1 ;
+  bp:evidence "2 occurrences" .
+
+:TOR4A_to_VHL_interaction a bp:Control ;
+  bp:controller :TOR4A ;
+  bp:controlled :VHL ;
+  bp:evidence "2 occurrences" .
+
+:TUSC2_to_CDH1_interaction a bp:Control ;
+  bp:controller :TUSC2 ;
+  bp:controlled :CDH1 ;
+  bp:evidence "2 occurrences" .
+
+:TUSC2_to_KEAP1_interaction a bp:Control ;
+  bp:controller :TUSC2 ;
+  bp:controlled :KEAP1 ;
+  bp:evidence "2 occurrences" .
+
+:UNC13D_to_RB1_interaction a bp:Control ;
+  bp:controller :UNC13D ;
+  bp:controlled :RB1 ;
+  bp:evidence "2 occurrences" .
+
+:UNC13D_to_TP53_interaction a bp:Control ;
+  bp:controller :UNC13D ;
+  bp:controlled :TP53 ;
+  bp:evidence "2 occurrences" .
+
+:USH1G_to_KEAP1_interaction a bp:Control ;
+  bp:controller :USH1G ;
+  bp:controlled :KEAP1 ;
+  bp:evidence "2 occurrences" .
+
+:USH1G_to_NF1_interaction a bp:Control ;
+  bp:controller :USH1G ;
+  bp:controlled :NF1 ;
+  bp:evidence "2 occurrences" .
+
+:USP1_to_PTEN_interaction a bp:Control ;
+  bp:controller :USP1 ;
+  bp:controlled :PTEN ;
+  bp:evidence "2 occurrences" .
+
+:USP1_to_TP53BP1_interaction a bp:Control ;
+  bp:controller :USP1 ;
+  bp:controlled :TP53BP1 ;
+  bp:evidence "2 occurrences" .
+
+:USP48_to_NF1_interaction a bp:Control ;
+  bp:controller :USP48 ;
+  bp:controlled :NF1 ;
+  bp:evidence "2 occurrences" .
+
+:USP48_to_NF2_interaction a bp:Control ;
+  bp:controller :USP48 ;
+  bp:controlled :NF2 ;
+  bp:evidence "2 occurrences" .
+
+:VGLL3_to_KEAP1_interaction a bp:Control ;
+  bp:controller :VGLL3 ;
+  bp:controlled :KEAP1 ;
+  bp:evidence "2 occurrences" .
+
+:VGLL3_to_RB1_interaction a bp:Control ;
+  bp:controller :VGLL3 ;
+  bp:controlled :RB1 ;
+  bp:evidence "2 occurrences" .
+
+:WRAP53_to_NF1_interaction a bp:Control ;
+  bp:controller :WRAP53 ;
+  bp:controlled :NF1 ;
+  bp:evidence "2 occurrences" .
+
+:WRAP53_to_TP53_interaction a bp:Control ;
+  bp:controller :WRAP53 ;
+  bp:controlled :TP53 ;
+  bp:evidence "2 occurrences" .
+
+:YPEL5_to_LKB1_interaction a bp:Control ;
+  bp:controller :YPEL5 ;
+  bp:controlled :LKB1 ;
+  bp:evidence "2 occurrences" .
+
+:YPEL5_to_PBRM1_interaction a bp:Control ;
+  bp:controller :YPEL5 ;
+  bp:controlled :PBRM1 ;
+  bp:evidence "2 occurrences" .
