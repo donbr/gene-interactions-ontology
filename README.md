@@ -13,7 +13,7 @@ This repository contains a Jupyter Notebook for exploring a **BioPax-based ontol
 ### Requirements:
 To run this notebook, you'll need:
 
-- **Python 3.11**  some of the Python libraries I've started to use have convinced me I need to embrace 3.11.  One of the more interesting libraries is trafilatura, which works well with foreign languages.
+- **Python 3.11**:  some of the Python libraries I've started to use have convinced me I need to embrace 3.11.  One of the more interesting libraries is trafilatura, which works well with parsing foreign language content from html.
 
 - The following libraries:
   ```bash
